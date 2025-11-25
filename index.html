@@ -26,10 +26,32 @@
             max-width: 600px;
             margin: auto;
         }
+        .issue-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #2ea44f; /* GitHub의 녹색 계열 */
+            color: white;
+            text-decoration: none; /* 밑줄 제거 */
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .issue-button:hover {
+            background-color: #22863a; /* 마우스를 올렸을 때 색상 변경 */
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <a 
+            href="https://github.com/kmintcherry92/webstatus/issues/new" 
+            target="_blank" 
+            class="issue-button"
+        >
+            게시판에 글 쓰기 / 의견 남기기
+        </a>
         <h1>👋 환영합니다!</h1>
         <p>이것은 GitHub Pages를 통해 배포된 저의 첫 번째 웹사이트입니다.</p>
         <p>이 파일을 수정하여 나만의 멋진 페이지를 만들어 보세요!</p>
@@ -37,4 +59,5 @@
         <p>저장소 이름: **YOUR_REPOSITORY_NAME**</p>
     </div>
 </body>
+
 </html>
